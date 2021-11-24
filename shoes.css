@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+:root{
+  --background: linear-gradient(135deg, #e2ba07ee 0% #764ba298 100% );
+  --color-primary: #e2ba07ee;
+  --color-secondary:#764ba298;
+  --boton-padding:20px 40px;
+}
+
+body{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.hero{
+    height: 80vh;
+    background-image: url(./theshoes.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    
+  }
+  .hero.container{
+    padding:0 ;
+  
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 120px;
+    align-items: center;
+    font-weight: 900;
+  }
+  
+  
+  .nav--footer{
+    font-weight: 300;
+    justify-content: flex-start;
+  }
+  
+  
+  .nav_items{
+    color:var(--color-primary);
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+   
+  }
+  
+  
+  .nav_items--cta{
+    border: 5px solid var(--color-primary);
+    background-color: white;
+  }
+  
+  .nav_items--footer{
+    padding: 10px;
+  }
+.container{
+  width: 90%;
+  margin: 0 auto;}
+
+
+
+  .hero.container{
+    display: flex;
+    height: calc(100vh - 70px);
+    align-items: center;
+    color: var(--color-primary);
+  }
+  
+  
+  .hero_texts{
+    width: 40%;
+    margin: 100px;
+    height: 100%;
+    background-color: #0000004D;
+    margin: auto;
+    margin-top: 130px;
+
+  
+  }
+  
+  
+  .hero_title{
+    font-size: 5.5rem;
+    color: var(--color-primary);
+    border: white;
+   
+  }
+  
+  
+  .hero_subtitle{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 15px 0;
+  }
+  
+  
+  .hero_cta{
+    display: inline block;
+    background-color: white;
+    padding: var(--boton-padding);
+    color: var(--color-primary);
+    text-decoration: none;
+    border-radius: 50px;
+  
+  }
+  
+  
+  
+  
+  .hero_wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .about{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;}
+
+
+    .about_parrafo{
+        margin-bottom: 30px;
+        line-height: 2.0;
+        font-weight: 300px;
+        
+      }
+
+      .about_img{
+        text-align: center;
+      }
+      
+      .about_img--left{
+        text-align: left;
+      }
+      
+      
+      .about_picture{
+        max-width: 120%;
+      }
+
+
+      .pie-pagina{
+        width: 100%;
+        background-color: var(--color-primary);
+      }
+      .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+      }
+      .pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .pie-pagina .grupo-1 .box figure img{
+        width: 250px;
+      }
+      .pie-pagina .grupo-1 .box h2{
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 20px;
+      }
+      .pie-pagina .grupo-1 .box p{
+        color: #efefef;
+        margin-bottom: 10px;
+      }
+      .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #0d2033;
+        text-align: center;
+        transition: all 300ms ease;
+      }
+      .pie-pagina .grupo-1 .red-social a:hover{
+        color: aqua;
+      }
+      .pie-pagina .grupo-2{
+        background-color: #0a1a2a;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+      }
+      .pie-pagina .grupo-2 small{
+        font-size: 15px;
+      }
+      
+        .pie-pagina .grupo-1{
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:30px;
+            padding: 35px 0px;}  
